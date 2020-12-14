@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!-- templates/home.html -->
+
+
+
+{% block title %}Schedule{% endblock %}
+
+{% block content %}
+    <h2> Schedule </h2>
+	<body>
+		<table>
+			<tr>
+				<th> &nbsp </th>
+				<th> Monday </th>
+				<th> Tuesday </th>
+				<th> Wendesday </th>
+				<th> Thursday </th>
+				<th> Friday </th>
+			</tr>
+
+			<tr>
+				<th> 9:00 </th>
+				<td> Advanced Web Mapping <br> (Lecture) </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td rowspan = 2> Distributed Systems <br> (Lecture) </td>
+				<td> &nbsp </td>
+			</tr>
+
+			<tr>
+				<th> 10:00 </th>
+				<td rowspan = 3> Advanced Web Mapping <br> (Lab) </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+			</tr>
+
+			<tr>
+				<th> 11:00 </th>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td rowspan = 2> Distributed Systems <br> (Lab) </td>
+				<td> &nbsp </td>
+			</tr>
+
+			<tr>
+				<th> 12:00 </th>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+			</tr>
+
+			<tr>
+				<th> 13:00 </th>
+				<td> Final Year Project <br> (Lecture) </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+			</tr>
+
+			<tr>
+				<th> 14:00 </th>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td rowspan = 2> Advanced Databases <br> (Lecture) </td>
+				<td rowspan = 2> Game Engines 1 <br> (Lecture) </td>
+			</tr>
+
+			<tr>
+				<th> 15:00 </th>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+			</tr>
+
+			<tr>
+				<th> 16:00 </th>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td rowspan = 2> Advanced Databases <br> (Lab) </td>
+				<td rowspan = 2> Game Engines 1 <br> (Lab) </td>
+			</tr>
+
+			<tr>
+				<th> 17:00 </th>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+				<td> &nbsp </td>
+			</tr>
+
+		</table>
+	</body>
+
+{% endblock %}

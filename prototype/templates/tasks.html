@@ -1,0 +1,31 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}Tasks{% endblock %}
+
+{% block content %}
+    <h2> Tasks </h2>
+
+    <div class="Tasklist">
+        <h3> Research </h3>
+        <span>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Research Universal Design Principles </label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Research Trello </label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Record Survey Results </label><br>
+        </span>
+    </div>
+    <div class="Tasklist">
+        <h3> Buy Presents For </h3>
+        <span>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Sister </label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Cathal </label><br>
+        </span>
+    </div>
+
+
+{% endblock %}
